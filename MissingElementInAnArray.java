@@ -20,9 +20,9 @@ public class MissingElementInAnArray {
 		{
 			// check if the iterator variable is not equal to the array values respectively
 		
-			if(i!=arr[i])
-			{
-				count=i;
+			if (i+1!=arr[i]) {
+				System.out.println("The missing number in the array is = " + index);
+				break;
 			}
 			
 				
